@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advertisment Flyer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script> 
+</head>
+<body class="overflow-hidden">
+    <div class="wrapper w-full h-screen bg-red-400 flex">
+        <nav class="navbar flex w-full h-[4em] bg-blue-400 items-center justify-between  text-white fixed top-0 px-[8em] text-lg z-10">
+            <h2 class="font-bold">Logo</h2>
+            <ul class="flex w-[30%] justify-between items-center">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+        </nav>
+        <div class="left w-[50%] h-[100%] bg-white flex items-center">
+            <img src="./public/mobileimg.jpg" alt="mobile background" class="w-[100%] h-[90%]">
+        </div>
+        <div class="right w-[50%] h-[100%] bg-slate-200 flex flex-col items-center justify-center gap-[3em] relative">
+            <div class="text flex flex-col items-center w-full h-[15em] justify-center absolute top-[7em] gap-[2em] text-center">
+                <h2 class="text-4xl font-semibold">Enjoy Our New Map App</h2>
+                <p class="text-lg px-[12em]">Support in all mobile phones whose currntly on Android 10 or above versions.</p>
+                <button class="bg-blue-400 py-[1em] px-[4em] text-white font-semibold hover:bg-blue-500 hover:rounded-xl transition-all ease-in-out  duration-200">Download Now</button>
+            </div>
+            <div class="logos bg-slate-300 rounded-xl absolute w-[10%] h-[20em] top-[15em] right-[3em] flex flex-col items-center justify-center gap-[3em] p-[1.3em]">
+                <img src="./public/playstore.png" alt="playstore">
+                <img src="./public/appstore.png" alt="appstore">
+                <img src="./public/getapp.png" alt="getapp">
+            </div>
+            <div class="botomdiv w-full h-[30em] bg-re-400 absolute bottom-0 flex items-center justify-items-center gap-[1em]">
+                <div class="box1 bg-blue-00 w-full h-[100%] flex justify-center items-center">
+                    <img src="./public/mobiles3.png" alt="three mobiles" class="w-[100%] absolute">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
